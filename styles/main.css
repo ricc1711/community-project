@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+
+.card{
+  @apply bg-stone-200 text-black rounded hover:bg-stone-100 flex flex-col justify-between overflow-hidden shadow-lg transition duration-300 ease-in-out;
+
+  .card-body{
+    @apply p-4 pb-6 flex-grow;
+  }
+}
+
+.aktionskarte{
+  @apply bg-stone-600 text-white hover:bg-stone-900;
+
+}
+
+.card-title{
+  @apply text-xl font-medium mb-2;
+}
+
+.cn-auto-grid{
+  grid-template-columns: repeat(auto-fill,minmax(24em,1fr));
+}
+
+.cn-auto-grid-half{
+  grid-template-columns: repeat(auto-fill,minmax(12em,1fr));
+}
+
+.cn-text-half{
+  padding-right: 25%;
+}

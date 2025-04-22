@@ -1,0 +1,58 @@
+{
+  "name": "community-project",
+  "version": "1.0.0",
+  "description": "Gameboard for Community Project",
+  "homepage": "https://github.com/cnoss/community-project#readme",
+  "bugs": {
+    "url": "https://github.com/cnoss/community-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnoss/community-project.git"
+  },
+  "license": "ISC",
+  "author": "Christian Noss",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx @tailwindcss/cli -i ./styles/main.css -o ./styles/combined-styles.css --watch",
+    "dev-server": "browser-sync --server --files \"*.html, styles/*.css, scripts/*.js\"",
+    "dev": "npm-run-all --parallel dev-server watch"
+  },
+  "dependencies": {
+    "braces": "^3.0.3",
+    "detect-libc": "^2.0.3",
+    "enhanced-resolve": "^5.18.1",
+    "esbuild": "^0.25.2",
+    "fill-range": "^7.1.1",
+    "fsevents": "^2.3.3",
+    "graceful-fs": "^4.2.11",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "jiti": "^2.4.2",
+    "lightningcss": "^1.29.2",
+    "lightningcss-darwin-arm64": "^1.29.2",
+    "micromatch": "^4.0.8",
+    "mri": "^1.2.0",
+    "nanoid": "^3.3.11",
+    "node-addon-api": "^7.1.1",
+    "picocolors": "^1.1.1",
+    "picomatch": "^2.3.1",
+    "postcss": "^8.5.3",
+    "rollup": "^4.40.0",
+    "source-map-js": "^1.2.1",
+    "tapable": "^2.2.1",
+    "to-regex-range": "^5.0.1",
+    "vite": "^6.2.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "@tailwindcss/vite": "^4.1.4",
+    "tailwindcss": "^4.1.4",
+    "browser-sync": "^2.0.0",
+    "concurrently": "^8.2.2",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^7.1.0"
+  }
+}
