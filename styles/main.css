@@ -1,22 +1,7 @@
 @import "tailwindcss";
 
 
-.card{
-  @apply bg-stone-200 text-black rounded hover:bg-stone-100 flex flex-col justify-between overflow-hidden shadow-lg transition duration-300 ease-in-out;
 
-  .card-body{
-    @apply p-4 pb-6 flex-grow;
-  }
-}
-
-.aktionskarte{
-  @apply bg-stone-600 text-white hover:bg-stone-900;
-
-}
-
-.card-title{
-  @apply text-xl font-medium mb-2;
-}
 
 .cn-auto-grid{
   grid-template-columns: repeat(auto-fill,minmax(24em,1fr));
@@ -26,6 +11,54 @@
   grid-template-columns: repeat(auto-fill,minmax(12em,1fr));
 }
 
+.cn-auto-grid.grid-large{
+  grid-template-columns: repeat(auto-fill,minmax(36em,1fr));
+}
+
 .cn-text-half{
   padding-right: 25%;
+}
+
+
+/* Cards
+############################################################################ */
+
+.card{
+  @apply bg-stone-200 text-black rounded hover:bg-stone-900 flex flex-col justify-between overflow-hidden shadow-lg transition duration-300 ease-in-out shadow-xl;
+  box-shadow: 0.2em 0.2em 20px rgba(0,0,0, 0.4);
+
+  .card-body{
+    @apply p-4 pb-6 flex-grow;
+  }
+
+  &:is-scaleable{
+    transform: scale(0.5);
+    transition: transform 0.3s ease-in-out;
+
+  
+    &:hover{
+      transform: scale(1);
+    }
+  }
+
+  h4{
+    @apply font-bold mb-1 mt-4 text-lg;
+  }
+
+  ul{
+    @apply list-disc pl-4;
+  }
+
+  dd{
+    @apply pr-2;
+  }
+}
+
+.aktionskarte{
+  @apply bg-stone-700 text-white hover:bg-stone-600;
+
+}
+
+.card-title{
+  @apply text-xl font-medium mb-2;
 }

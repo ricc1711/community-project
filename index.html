@@ -5,6 +5,7 @@
   <title>GitHub Project Viewer</title>
   <link rel="stylesheet" href="styles/combined-styles.css">
   <script src="https://unpkg.com/mustache@latest/mustache.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markdown-it@14.1.0/dist/markdown-it.min.js"></script>
 
 </head>
 <body class="bg-stone-800">
@@ -13,10 +14,46 @@
   </header>
 
   <main class="p-8">
+
+
+    <section class="pb-100">
+      <div class="grid cn-auto-grid gap-4">
+        <h2 class="text-4xl font-bold pb-4 text-white">Aktionen</h2>
+        <div class="pb-20 text-stone-200 col-span-2 text-xl">
+          <p class="pb-6">Im Community Projekt geht es darum, aktiv Teil einer Gemeinschaft zu sein und diese mitzugestalten – im Modul, im Studiengang, am Campus, in der Stadt und in der Fachcommunity. Ziel ist es, durch eigenes Engagement Erfahrungen des Dazugehörens („Belonging“) zu ermöglichen – für sich selbst und für andere.
+          </p>  
+          <h3 class="text-l font-bold pb-2">Wie funktioniert das Punktesystem?</h3>
+            
+          <p class="pb-6">Für jede Aktion erhalten Sie Punkte. Ab 100 gesammelten Punkten gilt das Modul als bestanden. Jede Aktion ist in einer <strong>Card</strong> dokumentiert, die im <a href="https://github.com/users/cnoss/projects/5">GitHub Project</a> eingesehen werden kann. Dort sind die Beschreibung, die geschätzte Punktzahl sowie mögliche Teilnahmebedingungen hinterlegt.</p>
+            
+          <h3 class="text-l font-bold pb-2">Wichtige Hinweise:</h3>
+          
+          <ul class="list-disc pl-4 pb-6">
+            <li class="pb-2"><strong>Verifizierung</strong>: Aktionen müssen von anderen Teilnehmer:innen des Kurses bestätigt/verifiziert werden. So stellen wir sicher, dass das Engagement sichtbar und anerkannt wird.</li>
+            <li class="pb-2"><strong>Teilnehmerbegrenzung</strong>: Einige Aktionen sind nur für eine begrenzte Zahl an Personen möglich. Um daran teilzunehmen, benötigen Sie ein <strong>Assignment</strong>, das auf Anfrage von einer betreuenden Person vergeben wird.</li>
+            <li class="pb-2"><strong>Punktevergabe</strong>: Die endgültige Punktevergabe erfolgt in Absprache mit dem Projektteam – fair, transparent und dialogisch.</li>
+          </ul>
+          
+          <h3 class="text-l font-bold pb-2">Warum das Ganze?</h3>
+          
+          <p class="pb-2">Das Projekt orientiert sich an den Phasen von <strong>Design for Belonging</strong>:</p>
+          
+          <ul class="list-none pb-6">
+            <li class="pb-2"><strong>Seeing Belonging</strong> – Zugehörigkeit wahrnehmen und sichtbar machen</li>
+            <li class="pb-2"><strong>Feeling Belonging</strong> – Zugehörigkeit erleben</li>
+            <li class="pb-2"><strong>Shaping Belonging</strong> – Räume, Rituale und Rollen gestalten, die Zugehörigkeit fördern</li>
+          </ul>
+          
+          <p>Jede Aktion soll dazu beitragen, ein starkes Gemeinschaftsgefühl zu entwickeln – für sich selbst und im Miteinander mit anderen.</p>
+        </div>
+      </div>
+      <ul id="aktionen" class="grid cn-auto-grid grid-large gap-4 items-stretch"></ul>
+    </section>
+
     <section class="pb-100">
       <div class="grid cn-auto-grid gap-4">
         <h2 class="text-4xl font-bold pb-4 text-white">Ereigniskarten</h2>
-        <div class="pb-20 text-stone-200 col-span-2 cn-text-half text-xl">
+        <div class="pb-20 text-stone-200 col-span-2 text-xl">
           <p class="pb-4">Ereigniskarten beziehen sich auf eine kleine, meist spontane Aktion, die von einer einzelnen Person ausgeführt wird. Sie bringen Bewegung und Überraschung ins Spiel und fördern auf leichte Weise Begegnung, Beteiligung und Gemeinschaft. Eine Karte wird immer dann gezogen, wenn jemand mit seiner Spielfigur auf einem Ereignisfeld landet. Die Aktion auf der Karte soll direkt im Anschluss oder im Verlauf des Projekts umgesetzt werden – manchmal mit Beweis, manchmal einfach so.</p>
           <p>Die Aufgaben sind humorvoll, kreativ oder herausfordernd, aber immer niedrigschwellig und offen gestaltet. Sie laden dazu ein, neue Erfahrungen zu machen, Grenzen auszutesten oder einfach Freude in den Projektalltag zu bringen. Ganz nebenbei stärken sie das Gefühl von Zugehörigkeit – im Team, am Campus und im Studiengang.</p>
         </div>
@@ -24,14 +61,14 @@
       <ul id="ereigniskarten" class="grid cn-auto-grid gap-4 items-stretch"></ul>
     </section>
 
-    <section class="">
+    <section class="pb-100">
       <div class="grid cn-auto-grid gap-4">
-        <h2 class="text-4xl font-bold pb-4 text-white">Aktionen</h2>
+        <h2 class="text-4xl font-bold pb-4 text-white">Aktionen Backlog</h2>
         <div class="pb-20 text-stone-200 col-span-2 cn-text-half">
           <p class="pb-4"></p>
         </div>
       </div>
-      <ul id="aktionen" class="grid cn-auto-grid gap-4 items-stretch"></ul>
+      <ul id="aktionenBacklog" class="grid cn-auto-grid grid-large  gap-4 items-stretch"></ul>
     </section>
   </main>
   
