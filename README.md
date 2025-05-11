@@ -5,4 +5,5 @@ Hier werden [Aktionen](https://github.com/users/cnoss/projects/5/views/9) und [E
 
 ## Hinweise zum Bearbeiten der Aktionen via GitHub Project
 
-<iframe width="560" height="315" style="width: 100%; aspect-ratio: 16/9" src="https://www.youtube.com/embed/dt5Sdy65vYg?si=JGfgjutEdGe_UG80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[![Video-Titel](https://img.youtube.com/vi/dt5Sdy65vYg/0.jpg)](https://www.youtube.com/watch?v=dt5Sdy65vYg)
