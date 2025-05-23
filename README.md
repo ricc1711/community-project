@@ -1,5 +1,5 @@
 # Community Project
-Playground für das Community Projekt im Medieninformatik Bachelor.
+Playground für das [Community Projekt im Medieninformatik Bachelor](https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Communityprojekt/).
 
 ## About
 
