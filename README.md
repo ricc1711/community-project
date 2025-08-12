@@ -8,7 +8,7 @@ Im Community Projekt geht es darum, aktiv Teil einer Gemeinschaft zu sein und di
 ## Wie funktioniert das Punktesystem?
 Für jede Aktion erhalten sie Punkte. Ab 100 gesammelten Punkten gilt das Modul als bestanden. Jede Aktion ist in einer Card (Github Issue) dokumentiert, die im GitHub Project eingesehen werden kann. Dort sind die Beschreibung, die geschätzte Punktzahl sowie mögliche Teilnahmebedingungen hinterlegt.
 
-Hier werden [Aktionen](https://github.com/users/cnoss/projects/5/views/9) und [Ereigniskarten](https://github.com/users/cnoss/projects/5/views/1) verwaltet. 
+Hier werden [Aktionen](https://github.com/users/cnoss/projects/5) und [Ereigniskarten](https://github.com/users/cnoss/projects/5/views/1) verwaltet. 
 
 
 **Verifizierung:** Aktionen müssen müssen durch das Betreuer:innen-Team bestätigt/verifiziert werden.
