@@ -1,0 +1,58 @@
+{
+  "ricc1711": [
+    {
+      "aktionTitel": "Teilnahme an Probelehrveranstaltung",
+      "issueId": 1,
+      "punkteProEinzelaktion": 3,
+      "anzahl": 15,
+      "proofs": [
+        "https://th-koeln.sciebo.de/s/8NMTxtJnRZhMom4?path=%2FProbelehrveranstaltungen"
+       ]
+    },
+    {
+      "aktionTitel": "Teilnahme an Präsenzveranstaltung",
+      "issueId": 2,
+      "punkteProEinzelaktion": 5,
+      "anzahl": 7,
+      "proofs": [
+        
+      ]
+    },
+    {
+      "aktionTitel": "Karrieremesse meet@th-koeln_gm in Gummersbach 27.05.2025",
+      "issueId": 173,
+      "punkteProEinzelaktion": 5,
+      "anzahl": 1,
+      "proofs": [
+        "https://th-koeln.sciebo.de/s/8NMTxtJnRZhMom4?path=%2FJobmesse"
+       ]
+    },
+    {
+      "aktionTitel": "Quiz Nachmittag",
+      "issueId": 85,
+      "punkteProEinzelaktion": 2,
+      "anzahl": 1,
+      "proofs": [
+        
+       ]
+    },
+    {
+      "aktionTitel": "Coding Koffer Konzeptentwicklung",
+      "issueId": 42,
+      "punkteProEinzelaktion": 20,
+      "anzahl": 1,
+      "proofs": [
+        
+       ]
+    },
+    {
+      "aktionTitel": "Filmfest",
+      "issueId": ,
+      "punkteProEinzelaktion": 5,
+      "anzahl": 1,
+      "proofs": [
+        
+       ]
+    }
+  ]
+}
